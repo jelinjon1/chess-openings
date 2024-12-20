@@ -1,0 +1,250 @@
+{
+  "responses": {
+    "e4": {
+      "description": "King's Pawn Opening",
+      "responses": {
+        "e5": {
+          "description": "Open Game / King's pawn game",
+          "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR",
+          "responses": {
+            "Nf3": {
+              "description": "Italian Game",
+              "fen": "rnbqkb1r/pppp1ppp/5n2/3Pp3/4P3/8/PPP2PPP/RNBQKBNR",
+              "responses": {
+                "Nc6": {
+                  "description": "Two Knights Defense",
+                  "fen": "rnbqkb1r/pppp1ppp/2n2n2/3Pp3/4P3/8/PPP2PPP/RNBQKBNR",
+                  "responses": {}
+                },
+                "Bc5": {
+                  "description": "Giuoco Piano",
+                  "fen": "rnbqkb1r/pppp1ppp/5n2/3Bp3/4P3/8/PPP2PPP/RNBQKBNR",
+                  "responses": {}
+                }
+              }
+            },
+            "Nc3":{
+              "description": "Vienna Game",
+              "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/2N5/PPPP1PPP/R1BQKBNR",
+              "responses": {
+                "Nf6":{
+                  "description": "Vienna, Falkbeer var.",
+                  "fen": "rnbqkb1r/pppp1ppp/5n2/4p3/4P3/2N5/PPPP1PPP/R1BQKBNR"
+                },
+                "Nc6":{
+                  "description": "Vienna, Max Lange defence",
+                  "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/2N5/PPPP1PPP/R1BQKBNR"
+                },
+                "Bc5":{
+                  "description": "Vienna Game",
+                  "fen": "rnbqk1nr/pppp1ppp/8/2b1p3/4P3/2N5/PPPP1PPP/R1BQKBNR"
+                }
+
+              }
+            },
+            "Bc4": {
+              "description": "Bishop's Opening",
+              "fen": "rnbqkbnr/pppp1ppp/8/2B1p3/4P3/8/PPPP1PPP/RNBQKBNR",
+              "responses": {
+                "Nf6": {
+                  "description": "Bishop's Opening, Berlin defence",
+                  "fen": "rnbqkb1r/pppp1ppp/5n2/4p3/2B1P3/8/PPPP1PPP/RNBQK1NR"
+                },
+                "Nc6": {
+                  "description": "Bishop's Opening",
+                  "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/2B1P3/8/PPPP1PPP/RNBQK1NR"
+                },
+                "Bc5": {
+                  "description": "Bishop's Opening, Classical variation",
+                  "fen": "rnbqk1nr/pppp1ppp/8/2b1p3/2B1P3/8/PPPP1PPP/RNBQK1NR"
+                }
+              }
+            }
+          }
+        },
+        "c5": {
+          "description": "Sicilian Defense",
+          "fen": "rnbqkbnr/pp1p1ppp/8/2p1p3/4P3/8/PPPP1PPP/RNBQKBNR",
+          "responses": {
+            "Nf3":{
+              "description": "Sicilian opening",
+              "fen": "rnbqkbnr/pp1ppppp/8/2p5/4P3/5N2/PPPP1PPP/RNBQKB1R",
+              "responses": {
+                "d6":{
+                  "description": "Sicilian",
+                  "fen": "rnbqkbnr/pp2pppp/3p4/2p5/4P3/5N2/PPPP1PPP/RNBQKB1R"
+                },
+                "Nc6":{
+                  "description": "Sicilian defence",
+                  "fen": "r1bqkbnr/pp1ppppp/2n5/2p5/4P3/5N2/PPPP1PPP/RNBQKB1R"
+                },
+                "e6":{
+                  "description": "Sicilian defence",
+                  "fen": "rnbqkbnr/pp1p1ppp/4p3/2p5/4P3/5N2/PPPP1PPP/RNBQKB1R"
+                }
+              }
+            },
+            "Nc3": {
+              "description": "Open Sicilian",
+              "fen": "rnbqkbnr/pp1p1ppp/2n5/2p1p3/4P3/8/PPPP1PPP/RNBQKBNR",
+              "responses": {
+                "d6": {
+                  "description": "Classical Sicilian",
+                  "fen": "rnbqkbnr/pp1p1ppp/2n5/2p1p3/4P3/8/PPPP1PPP/RNBQKBNR",
+                  "responses": {}
+                },
+                "Nf6": {
+                  "description": "Sicilian Najdorf",
+                  "fen": "rnbqkbnr/pp1p1ppp/2n5/2p1p3/4P3/8/PPP1NPPP/RNBQKBNR",
+                  "responses": {}
+                },
+                "e6": {
+                  "description": "Closed Sicilian",
+                  "fen": "rnbqkbnr/pp1p1ppp/4p3/2p5/4P3/2N5/PPPP1PPP/R1BQKBNR",
+                  "responses": {}
+                }
+              }
+            },
+            "c3": {
+              "description": "Sicilian, Alapin's var.",
+              "fen": "rnbqkbnr/pp1ppppp/8/2p5/4P3/2P5/PP1P1PPP/RNBQKBNR",
+              "responses": {
+                "d5":{
+                  "description": "Sicilian, Alapin's var.",
+                  "fen": "rnbqkbnr/pp1ppppp/8/2p5/4P3/2P5/PP1P1PPP/RNBQKBNR",
+                  "responses":{
+                    "exd5":{},
+                    "e5":{}
+                  }
+                },
+                "Nf6":{
+                  "description": "Sicilian, Alapin's var.",
+                  "fen": "rnbqkb1r/pp1ppppp/5n2/2p5/4P3/2P5/PP1P1PPP/RNBQKBNR",
+                  "responses":{
+                    "e5":{},
+                    "d3":{}
+                  }
+                }
+              }
+            },
+            "d4": {
+              "description": "Sicilian, Smith-morra gambit",
+              "fen": "rnbqkbnr/pp1ppppp/8/2p5/3PP3/8/PPP2PPP/RNBQKBNR",
+              "responses": {
+                "cxd4":{
+                  "description": "Sicilian, Smith-morra gambit",
+                  "fen": "rnbqkbnr/pp1ppppp/8/8/3pP3/8/PPP2PPP/RNBQKBNR"
+                },
+                "e6":{
+                  "description": "Sicilian, Smith-morra gambit",
+                  "fen": "rnbqkbnr/pp1p1ppp/4p3/2p5/3PP3/8/PPP2PPP/RNBQKBNR"
+                }
+              }
+            },
+            "d3": {
+              "description": "Closed Sicilian",
+              "fen": "rnbqkbnr/pp1p1ppp/8/2p1p3/3P4/8/PPP2PPP/RNBQKBNR",
+              "responses": {}
+            }
+          }
+        },
+        "e6": {
+          "description": "French Defense",
+          "fen": "rnbqkbnr/pppp1ppp/8/4p3/3P4/8/PPP2PPP/RNBQKBNR",
+          "responses": {
+            "d4": {
+              "description": "Advance Variation",
+              "fen": "rnbqkbnr/pppp1ppp/8/3Pp3/8/8/PPP2PPP/RNBQKBNR",
+              "responses": {
+                "d5": {
+                  "description": "Main Line",
+                  "fen": "rnbqkbnr/pp1p1ppp/8/3Pp3/8/8/PPP2PPP/RNBQKBNR",
+                  "responses": {}
+                }
+              }
+            },
+            "Nc3": {
+              "description": "Classical Variation",
+              "fen": "rnbqkbnr/pppp1ppp/8/2n1p3/3P4/8/PPP2PPP/RNBQKBNR",
+              "responses": {
+                "Nf6": {
+                  "description": "French Defense - Classical Variation",
+                  "fen": "rnbqkbnr/pppp1ppp/8/2n1p3/3P4/8/PPP2PPP/RNBQKBNR",
+                  "responses": {}
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "d4": {
+      "description": "Queen's Pawn Opening",
+      "responses": {
+        "d5": {
+          "description": "Closed Game",
+          "fen": "rnbqkbnr/pppp1ppp/8/8/3P4/8/PPP2PPP/RNBQKBNR",
+          "responses": {
+            "c4": {
+              "description": "Queen's Gambit",
+              "fen": "rnbqkbnr/pppp1ppp/8/2P5/3P4/8/PPP2PPP/RNBQKBNR",
+              "responses": {
+                "e6": {
+                  "description": "Declined",
+                  "fen": "rnbqkbnr/pp1p1ppp/8/2P5/3P4/8/PPP2PPP/RNBQKBNR",
+                  "responses": {}
+                },
+                "dxc4": {
+                  "description": "Accepted",
+                  "fen": "rnbqkbnr/pppp1ppp/8/3Pp3/3P4/8/PPP2PPP/RNBQKBNR",
+                  "responses": {}
+                }
+              }
+            }
+          }
+        },
+        "Nf6": {
+          "description": "Indian Game",
+          "fen": "rnbqkbnr/pppp1ppp/8/8/8/2N5/PPP2PPP/R1BQKBNR",
+          "responses": {
+            "c4": {
+              "description": "King's Indian Attack",
+              "fen": "rnbqkbnr/pppp1ppp/8/2P5/8/8/PPP2PPP/RNBQKBNR",
+              "responses": {}
+            }
+          }
+        }
+      }
+    },
+    "Nf3": {
+      "description": "Knight's Opening",
+      "responses": {
+        "d5": {
+          "description": "Closed Game",
+          "fen": "rnbqkbnr/pppp1ppp/8/8/2N5/8/PPP2PPP/R1BQKBNR",
+          "responses": {}
+        },
+        "f5": {
+          "description": "Dutch Defense",
+          "fen": "rnbqkbnr/pppp1ppp/8/8/2N1P3/8/PPP2PPP/R1BQKBNR",
+          "responses": {}
+        }
+      }
+    },
+    "e4 e5": {
+      "description": "Double King's Pawn Opening",
+      "responses": {
+        "Nf3": {
+          "description": "Italian Game",
+          "fen": "rnbqkb1r/pppp1ppp/5n2/3Pp3/4P3/8/PPP2PPP/RNBQKBNR",
+          "responses": {}
+        },
+        "Bc4": {
+          "description": "Bishop's Opening",
+          "fen": "rnbqkbnr/pppp1ppp/8/2B1p3/4P3/8/PPP2PPP/RNBQKBNR",
+          "responses": {}
+        }
+      }
+    }
+  }
+}
